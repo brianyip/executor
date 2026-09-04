@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "executor-brianjyip",
   "workers_dev": false,
+  "routes": [{ "pattern": "exe.brianjyip.com", "custom_domain": true }],
   "compatibility_date": "2025-04-01",
   "compatibility_flags": ["nodejs_compat"],
   "main": "src/worker.ts",
